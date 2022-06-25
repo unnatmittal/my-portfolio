@@ -1,0 +1,77 @@
+/*homepage */
+.home {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+
+/*home left*/
+.home-l {
+  width: 60%;
+  background-color: #e0fcff;
+}
+
+.box {
+  /* background-color: lightpink; */
+  margin: 15rem 10rem;
+}
+
+.underline {
+  width: 7rem;
+  height: 0.25rem;
+  background: #2caeba;
+  margin-right: auto;
+}
+.heading {
+  font-size: 65px;
+  margin-top: 10px;
+  padding-left: 5px;
+  display: flex;
+  color: #102a42;
+}
+.heading p {
+  color: #2caeba;
+  margin: 0px;
+  padding-left: 20px;
+}
+
+.typed {
+  font-size: 36px;
+  color: #617d98;
+}
+
+/*homeright*/
+.home-r {
+    background-color: white;
+}
+.box-r {
+  display: flex;
+  margin-left: -10rem;
+  margin-top: 5rem;
+}
+
+.svg {
+  width: 47rem;
+  height: 47rem;
+  margin-left: -32rem;
+  margin-top:   -3.5rem;
+}
+
+.hdp {
+  width: 28rem;
+  height: 28rem;
+  border-radius: 15rem 12rem;
+  z-index: 10;
+  margin-top: 8rem;
+}
+.hdp-box {
+  z-index: 1;
+  width: 30rem;
+  padding-left: 5rem;
+}
+/* 
+light: #E0FCFF
+black: #617D98
+dark: #2CAEBA 
+dark2: #289DA8
+dark blue: 102A42*/
